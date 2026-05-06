@@ -70,9 +70,10 @@ function HomePage() {
                 href="https://www.swiggy.com"
                 target="_blank"
                 rel="noreferrer"
-                className="inline-flex items-center gap-2 rounded-full border border-foreground/25 px-7 py-4 text-xs uppercase tracking-[0.2em] text-foreground transition-all hover:border-gold hover:text-gold"
+                className="group inline-flex items-center gap-2 rounded-full bg-foreground px-7 py-4 text-xs uppercase tracking-[0.2em] text-background transition-all hover:bg-gold hover:text-gold-foreground hover:shadow-[var(--shadow-luxe)]"
               >
                 Order on Swiggy
+                <span className="transition-transform group-hover:translate-x-1">→</span>
               </a>
             </div>
             <div className="mt-12 flex items-center gap-6">
