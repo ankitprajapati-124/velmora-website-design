@@ -61,7 +61,7 @@ function HomePage() {
                 href="https://www.zomato.com"
                 target="_blank"
                 rel="noreferrer"
-                className="group inline-flex items-center gap-2 rounded-full bg-foreground px-7 py-4 text-xs uppercase tracking-[0.2em] text-background transition-all hover:bg-gold hover:text-gold-foreground hover:shadow-[var(--shadow-luxe)]"
+                className="group inline-flex items-center gap-2 rounded-full bg-gold px-7 py-4 text-xs uppercase tracking-[0.2em] text-gold-foreground transition-all hover:bg-foreground hover:text-background hover:shadow-[var(--shadow-luxe)]"
               >
                 Order on Zomato
                 <span className="transition-transform group-hover:translate-x-1">→</span>
@@ -70,7 +70,7 @@ function HomePage() {
                 href="https://www.swiggy.com"
                 target="_blank"
                 rel="noreferrer"
-                className="group inline-flex items-center gap-2 rounded-full bg-foreground px-7 py-4 text-xs uppercase tracking-[0.2em] text-background transition-all hover:bg-gold hover:text-gold-foreground hover:shadow-[var(--shadow-luxe)]"
+                className="group inline-flex items-center gap-2 rounded-full bg-gold px-7 py-4 text-xs uppercase tracking-[0.2em] text-gold-foreground transition-all hover:bg-foreground hover:text-background hover:shadow-[var(--shadow-luxe)]"
               >
                 Order on Swiggy
                 <span className="transition-transform group-hover:translate-x-1">→</span>
